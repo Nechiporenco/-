@@ -1,0 +1,32 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    flex: 0 0 200px;
+    padding: 20px;
+}
+
+nav button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    display: none;
+}
+
+.active {
+    display: block;
+}
